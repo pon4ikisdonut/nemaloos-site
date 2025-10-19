@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Сообщить о проблеме — NemaloOS</title>
+  <title>Report an Issue — NemaloOS</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="page-report">
   <header class="site-header">
     <div class="container">
-      <div class="logo-group">
+      <div class="logo-group animate-fade-up">
         <div class="logo">NemaloOS</div>
         <span class="version">25.10 "Donut"</span>
       </div>
-      <nav class="main-nav">
-        <a href="index.html">Главная</a>
-        <a href="support.html">Поддержка</a>
-        <a href="report.html" class="active">Сообщить о баге</a>
+      <nav class="main-nav animate-fade-up delay-1">
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="report.html" class="active">Report a Bug</a>
         <a href="https://discord.gg/nSgmyadnbn" target="_blank" rel="noopener" class="discord-pill">Discord</a>
       </nav>
     </div>
@@ -24,71 +24,71 @@
 
   <main class="subpage">
     <section class="page-hero">
-      <div class="container">
-        <h1>Сообщить о баге</h1>
-        <p>Пожалуйста, опишите проблему подробно и прикрепите журналы, если это возможно. Все отчёты принимаются через наш Discord-сервер.</p>
-        <a class="btn primary" href="https://discord.gg/nSgmyadnbn" target="_blank" rel="noopener">Открыть канал #bug-report</a>
+      <div class="container animate-fade-up">
+        <h1>Report a bug</h1>
+        <p>Please describe the issue in detail and include logs whenever possible. All reports are handled through our Discord server.</p>
+        <a class="btn primary" href="https://discord.gg/nSgmyadnbn" target="_blank" rel="noopener">Open the #bug-report channel</a>
       </div>
     </section>
 
     <section class="report-steps">
-      <div class="container">
-        <h2>Как отправить отчёт</h2>
+      <div class="container animate-fade-up">
+        <h2>How to submit</h2>
         <ol>
-          <li>Перейдите в Discord и присоединитесь к серверу NemaloOS.</li>
-          <li>В разделе <strong>Support</strong> выберите канал <strong>#bug-reports</strong>.</li>
-          <li>Создайте новую публикацию</li>
-          <li>Опишите проблему, укажите версию NemaloOS (например, 25.10 "Donut") и шаги для воспроизведения.</li>
-          <li>Прикрепите логи из <code>/var/log</code> или вывод <code>journalctl</code>, если это актуально.</li>
+          <li>Join the NemaloOS Discord server.</li>
+          <li>In the <strong>Support</strong> category, open the <strong>#bug-reports</strong> channel.</li>
+          <li>Create a new post.</li>
+          <li>Describe the problem, include your NemaloOS version (for example, 25.10 "Donut"), and list reproduction steps.</li>
+          <li>Attach logs from <code>/var/log</code> or the output of <code>journalctl</code> when relevant.</li>
         </ol>
-        <p class="note">Срочные вопросы задавайте модераторам напрямую в Discord.</p>
+        <p class="note">For urgent issues, contact the moderators directly on Discord.</p>
       </div>
     </section>
 
     <section class="report-template">
-      <div class="container">
-        <h2>Шаблон сообщения</h2>
-        <div class="template-box">
-          <pre><code>**Версия системы:** NemaloOS 25.10 "Donut"
-**Компонент:** (Calamares / LightDM / XFCE / pacman / dnf / другое)
-**Описание:**
+      <div class="container animate-fade-up">
+        <h2>Message template</h2>
+        <div class="template-box animate-fade-up">
+          <pre><code>**System version:** NemaloOS 25.10 "Donut"
+**Component:** (Calamares / LightDM / XFCE / pacman / dnf / other)
+**Description:**
 
-**Шаги для воспроизведения:**
-1. 
-2. 
-3. 
+**Steps to reproduce:**
+1.
+2.
+3.
 
-**Ожидаемое поведение:**
+**Expected behavior:**
 
-**Фактическое поведение:**
+**Actual behavior:**
 
-**Логи и вложения:**
+**Logs and attachments:**
           </code></pre>
         </div>
-        <a class="btn secondary" href="https://discord.gg/nSgmyadnbn" target="_blank" rel="noopener">Скопировать шаблон в Discord</a>
+        <a class="btn secondary" href="https://discord.gg/nSgmyadnbn" target="_blank" rel="noopener">Copy the template to Discord</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div>
-        <h4>Нужна помощь?</h4>
-        <a href="support.html">Посетить центр поддержки</a>
+      <div class="animate-fade-up">
+        <h4>Need support?</h4>
+        <a href="support.html">Visit the support center</a>
       </div>
-      <div>
-        <h4>Сообщество</h4>
+      <div class="animate-fade-up delay-1">
+        <h4>Community</h4>
         <ul>
-          <li><a href="https://discord.gg/nSgmyadnbn" target="_blank" rel="noopener">Discord-сервер</a></li>
-          <li><a href="https://discord.gg/nSgmyadnbn" target="_blank" rel="noopener">Новости релизов</a></li>
+          <li><a href="https://discord.gg/nSgmyadnbn" target="_blank" rel="noopener">Discord server</a></li>
+          <li><a href="https://discord.gg/nSgmyadnbn" target="_blank" rel="noopener">Release updates</a></li>
         </ul>
       </div>
-      <div>
-        <h4>Главная</h4>
-        <a href="index.html">Вернуться на главную</a>
+      <div class="animate-fade-up delay-2">
+        <h4>Homepage</h4>
+        <a href="index.html">Return home</a>
       </div>
     </div>
-    <div class="container footer-bottom">
+    <div class="container footer-bottom animate-fade-up">
       <span>&copy; 2025 NemaloOS Project</span>
       <a href="https://discord.gg/nemaloos" target="_blank" rel="noopener">Discord</a>
     </div>
